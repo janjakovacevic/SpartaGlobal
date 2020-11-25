@@ -1,4 +1,4 @@
-# Week 3 - Java Basics (Java Week 1)
+# Week 3 - Java Week 1
 
 Hosts all the work done in Week 3 of Java Developer Training.
 
