@@ -1,12 +1,6 @@
 # SQL Project
 
-Hosts all the work done in Week 2 of Java Developer Training.
+Final version of the [SQL Project](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%202%20-%20SQL%20Week/project/SQL%20Week%20-%20Project.pdf)
 
-## Work done
 
-- Databases
-	- About databases
-	- SQL 
-	- Querying
-- SQL Project
 
