@@ -9,7 +9,7 @@ public class Palindrome {
             int back = word.length() - 1;
             // front pointing to the front
             // back pointing to the back
-            // loops until they are characters to compare
+            // loops until there are characters to compare
             for (int front = 0; front <= back; front++, back--) {
                 // mismatch found
                 if (word.charAt(front) != word.charAt(back)) return false;
