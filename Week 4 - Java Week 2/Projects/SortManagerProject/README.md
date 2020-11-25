@@ -3,7 +3,6 @@
 <img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/Projects/SortManagerProject/program%20screenshots/sort%20manager%20-%20logo.png">
 
 
-
 # **Sort Manager**
 ![java_badge](https://img.shields.io/badge/-Java-lightgrey?style=for-the-badge&logo=appveyor)
 ![maven_badge](https://img.shields.io/badge/-Maven-yellow?style=for-the-badge&logo=appveyor) 
@@ -12,12 +11,45 @@
 ![oop](https://img.shields.io/badge/-OOP-brightgreen?style=for-the-badge&logo=appveyor)
 ![solid](https://img.shields.io/badge/-SOLID-orange?style=for-the-badge&logo=appveyor)
 
-Sort Manager is a program that allows the user to select any of the 5
-algorithms to sort an array of random integers. The program can be run
-either through the Command Line Interface (CLI) or through a Graphical
-User Interface (GUI).
+### **Table Of Contents**
+  * [**Overview**](#overview)
+  * [**Technology**](#technology)
+  * [**Screenshots**](#screenshots)
+      - [CLI Program](#cli-program)
+      - [GUI Program](#gui-program)
+  * [**Future Work**](#future-work)
 
-## **CLI Program**
+## **Overview**
+- Program that sorts an unsorted array based on user input
+- User can select any of the 5 algorithms
+  - Bubble Sort
+  - Merge Sort
+  - Binary Sort (ascending order)
+  - Binary Sort (descending order)
+  - Quick Sort
+- User can select the desired length of an array
+- An array is randomly generated
+- The program can be run in 2 ways:
+  - through the Command Line Interface (CLI)
+  - through a Graphical User Interface (GUI)
+
+## **Technology**
+- Algorithms
+  - Five different sorting algorithms has been implemented
+- Exceptions
+  - Both from java.lang and custom built ones
+- Interfaces
+  - Two interfaces are used: Sorter and BinaryTree
+- SOLID Principles
+  - The project aims to follow SOLID principles
+- OOP: Object Oriented Programming
+  - the 4 pillars: Abstraction, Inheritance, Encapsulation, Polymorphism
+- Nested Classes
+  - The Node class nested inside the Binary Tree class
+
+## **Screenshots**
+
+### **CLI Program**
 
 Every time the CLI program is run, the following menu will be displayed in the command line allowing the user to select their preference:
 
@@ -68,7 +100,7 @@ the user will be free to choose another algorithm or make another comparison.
 The user is welcome to repeat this cycle as many times as they wish until they
 choose to exit the program.
 
-## **GUI Program**
+### **GUI Program**
 
 When the user runs the GUI program, a GUI application will open up. It will look like
 the the picture below:
@@ -112,3 +144,9 @@ User is welcome to re-randomize an array of the same length before re-running an
 While an action is being performed, all buttons will be temporarily disabled. Once the action has been completed, the user can immediately pick another option.
 
 The user can exit the program at any point by pressing the close [X] button in the top left corner of the screen.
+
+## **Future Work**
+Possible improvments for `Sort Manager 2.0`
+ - Add more sorting algorithms
+ - Make use of Java Fx instead of Java Swing
+ - Make the app web-based
