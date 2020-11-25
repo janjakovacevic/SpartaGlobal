@@ -8,5 +8,5 @@ Hosts all the work done in Week 2 of Java Developer Training.
 	- About databases
 	- SQL 
 	- Querying
-- SQL Project
+- [SQL Project](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%202%20-%20SQL%20Week/project)
 
