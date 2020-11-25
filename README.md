@@ -11,7 +11,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
 
 ## Course Overview 
 
-<img align="right" src="https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/assets/plan.png">
+<img align="right" src="https://github.com/janjakovacevic/SpartaGlobal/blob/master/assets/plan.png">
 
 ## Course Road Map
  - [x] Week 1 - Business Week
