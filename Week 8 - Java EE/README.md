@@ -6,12 +6,11 @@ Hosts all the work done in Week 8 of Java Developer Training.
 
 - HTTP Protocol
 - Servlets
-- Java EE
-  - JSP
-  - JSF
-  - JPA
-  - CDI
+- Jakarta (Java) EE: Enterprise Edition
+  - JSP: Java Server Pages
+  - JSF: Java Server Faclets
+  - JPA: Java Persistence API
+  - CDI: Context/Dependency Injection
   - Beans
-  - JPA
   - Security
 - Rest API
