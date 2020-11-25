@@ -1,6 +1,6 @@
 
 
-<img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/sort%20manager%20-%20logo.png">
+<img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/sort%20manager%20-%20logo.png">
 
 
 
@@ -21,7 +21,7 @@ User Interface (GUI).
 
 Every time the CLI program is run, the following menu will be displayed in the command line allowing the user to select their preference:
 
-![CLI - initial prompt](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20initial%20prompt.png)
+![CLI - initial prompt](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20initial%20prompt.png)
 
 As seen in the picture above, there are 5 algorithms to choose from:
 - `Bubble Sort`
@@ -40,7 +40,7 @@ or a comparison of all of them, the program would prompt the user to input
 the length of the random array you would like to sort.
 Please note there is a size limit on the input array and it is capped at 1,000.
 
-![CLI - array prompt](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20array%20prompt.png)
+![CLI - array prompt](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20array%20prompt.png)
 
 If a sorting algorithm was chosen, upon setting the desired array length, the
 program will then sort the array using the specified algorithm. Note that the
@@ -52,7 +52,7 @@ You will be shown the following:
 - `the entire sorted array`
 - `the time taken to sort the array`
 
-![CLI - sort output](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20sort%20output.png)
+![CLI - sort output](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20sort%20output.png)
 
 In case option 6 was chosen, that is - comparing all algorithms by their times,
 the program will first display the array the sorting was done on, before
@@ -61,7 +61,7 @@ algorithm. The table is sorted in ascending order of time taken, with the
 fastest algorithm on the top and slowest algorithm at the bottom.
 Below is an example of such an output.
 
-![CLI - comparison output](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20comparison%20output.png)
+![CLI - comparison output](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/CLI%20-%20comparison%20output.png)
 
 Upon finishing this run, the program will return to the first menu, where
 the user will be free to choose another algorithm or make another comparison.
@@ -73,7 +73,7 @@ choose to exit the program.
 When the user runs the GUI program, a GUI application will open up. It will look like
 the the picture below:
 
-![GUI - initial setup](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20initial%20setup.png)
+![GUI - initial setup](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20initial%20setup.png)
 
 The 5 sorting algorithms are listed down the left hand side of the GUI,
 as well as the option to compare all algorithms and the field to set the length
@@ -95,7 +95,7 @@ following, illustrated by an image similar to the one below:
 - `the amount of time taken to sort the array`
 
 
-![GUI - sort output](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20sort%20output.png)
+![GUI - sort output](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20sort%20output.png)
 
 If the user decides to compare all of the algorithms instead, the GUI will
 show
@@ -105,7 +105,7 @@ show
 - `the table of sorting times for each algorithm over the unsorted array, with the fastest time on top`
 - `the fastest algorithm for that comparison and its recorded sort time`
 
-![GUI - comparison output](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20comparison%20output.png)
+![GUI - comparison output](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%204%20-%20Java%20Week%202/SortManagerProject/program%20screenshots/GUI%20-%20comparison%20output.png)
 
 User is welcome to re-randomize an array of the same length before re-running any of the algorithms. They are also free to reset all output field before deciding on their next course of action.
 
