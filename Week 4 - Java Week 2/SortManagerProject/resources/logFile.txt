@@ -1,0 +1,96 @@
+[TRACE] 2020-10-21 16:57:11.766 [main] SortManagerController - GUI: Starting
+[TRACE] 2020-10-21 16:57:11.769 [main] SortManagerController - GUI: frame setup
+[TRACE] 2020-10-21 16:57:11.888 [main] SortManagerController - GUI: styling fields
+[TRACE] 2020-10-21 16:57:11.934 [main] SortManagerController - GUI: activating button action listeners
+[TRACE] 2020-10-21 16:57:23.693 [AWT-EventQueue-0] SortManagerController - calling a sorter
+[TRACE] 2020-10-21 16:57:23.698 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:57:23.699 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:23.701 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:23.702 [AWT-EventQueue-0] SortManagerController - displaying sort results
+[TRACE] 2020-10-21 16:57:34.751 [AWT-EventQueue-0] SortManagerController - calling a sorter
+[TRACE] 2020-10-21 16:57:34.752 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:57:34.752 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:34.755 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:34.755 [AWT-EventQueue-0] SortManagerController - displaying sort results
+[TRACE] 2020-10-21 16:57:41.779 [AWT-EventQueue-0] SortManagerController - calling a sorter
+[TRACE] 2020-10-21 16:57:49.675 [AWT-EventQueue-0] SortManagerController - calling all sorters
+[TRACE] 2020-10-21 16:57:49.675 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:57:49.677 [AWT-EventQueue-0] SortManagerController - Running all sorters on the same array
+[TRACE] 2020-10-21 16:57:49.677 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:49.679 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:49.679 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:49.679 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:49.679 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:49.683 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:49.683 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:49.684 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:49.684 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:57:49.684 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:57:49.684 [AWT-EventQueue-0] SortManagerController - Done running all sorters on the same array - time to be displayed
+[TRACE] 2020-10-21 16:57:49.685 [AWT-EventQueue-0] SortManagerController - displaying all sort results
+[TRACE] 2020-10-21 16:58:21.310 [AWT-EventQueue-0] SortManagerController - calling a sorter
+[TRACE] 2020-10-21 16:58:28.680 [AWT-EventQueue-0] SortManagerController - calling a sorter
+[TRACE] 2020-10-21 16:58:28.681 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:58:28.681 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:28.681 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:28.681 [AWT-EventQueue-0] SortManagerController - displaying sort results
+[TRACE] 2020-10-21 16:58:31.113 [AWT-EventQueue-0] SortManagerController - calling all sorters
+[TRACE] 2020-10-21 16:58:31.113 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:58:31.114 [AWT-EventQueue-0] SortManagerController - Running all sorters on the same array
+[TRACE] 2020-10-21 16:58:31.114 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:31.115 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:31.116 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:31.116 [AWT-EventQueue-0] SortManagerController - Done running all sorters on the same array - time to be displayed
+[TRACE] 2020-10-21 16:58:31.116 [AWT-EventQueue-0] SortManagerController - displaying all sort results
+[TRACE] 2020-10-21 16:58:36.350 [AWT-EventQueue-0] SortManagerController - calling all sorters
+[TRACE] 2020-10-21 16:58:36.350 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:58:36.351 [AWT-EventQueue-0] SortManagerController - Running all sorters on the same array
+[TRACE] 2020-10-21 16:58:36.352 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:36.355 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:36.355 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:36.355 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:36.355 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:58:36.356 [AWT-EventQueue-0] SortManagerController - Done running all sorters on the same array - time to be displayed
+[TRACE] 2020-10-21 16:58:36.357 [AWT-EventQueue-0] SortManagerController - displaying all sort results
+[TRACE] 2020-10-21 16:59:01.226 [AWT-EventQueue-0] SortManagerController - calling all sorters
+[TRACE] 2020-10-21 16:59:01.226 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Running all sorters on the same array
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - Done running all sorters on the same array - time to be displayed
+[TRACE] 2020-10-21 16:59:01.227 [AWT-EventQueue-0] SortManagerController - displaying all sort results
+[TRACE] 2020-10-21 16:59:10.596 [AWT-EventQueue-0] SortManagerController - calling all sorters
+[TRACE] 2020-10-21 16:59:10.597 [AWT-EventQueue-0] SortManagerController - Generating a Random Array
+[TRACE] 2020-10-21 16:59:10.597 [AWT-EventQueue-0] SortManagerController - Running all sorters on the same array
+[TRACE] 2020-10-21 16:59:10.597 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:10.597 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Sorting...
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Packing Sorting Results for output
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - Done running all sorters on the same array - time to be displayed
+[TRACE] 2020-10-21 16:59:10.598 [AWT-EventQueue-0] SortManagerController - displaying all sort results

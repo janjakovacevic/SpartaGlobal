@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:outputLabel value="Hello, world"/>
+    <h:head>
+        <h1>Actors RestAPI</h1>
+    </h:head>
+    <body>
+        <h:form class="input">
+            <h:panelGrid columns="3">
+                <h:outputLabel for="urlInput">
+                    "http://localhost:8080/ActorAPI-1.0-SNAPSHOT/resource/actor/"
+                </h:outputLabel>
+                <h:inputText type="text" id="urlInput" value="#{actorBean.actorEntity.actorId}"/>
+                <h:commandButton value="Submit" action="#{actorBean.findActor}" />
+            </h:panelGrid>
+        </h:form>
+        <h:form class="output">
+            <h:form id="displayActor">
+                <!--can take a request from anyone-->
+                <h:messages id="messages" globalOnly="true"/>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="Actor ID: " style="font-weight:bold; text-align:center"/>
+                    <h:outputText value="#{actorBean.actorEntity.actorId}" style="color: #d91e4f; text-align:center"/>
+                    <h:outputLabel value="First Name: " style="font-weight:bold; text-align:center"/>
+                    <h:outputText value="#{actorBean.actorEntity.firstName}" style="color: #d91e4f; align-content: center"/>
+                    <h:outputLabel value="Last Name: " style="font-weight:bold; text-align:center"/>
+                    <h:outputText value="#{actorBean.actorEntity.lastName}" style="color: #d91e4f; text-align:center"/>
+                    <h:outputLabel value="Last Update: " style="font-weight:bold; text-align:center"/>
+                    <h:outputText value="#{actorBean.actorEntity.lastUpdate}" style="color: #d91e4f; text-align:center"/>
+                </h:panelGrid>
+            </h:form>
+        </h:form>
+    </body>
+
+
+</f:view>
+</html>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sparta.janja.views.SortManagerGUI">
+  <grid id="27dc6" binding="panel" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="711" height="843"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="49f0" layout-manager="GridLayoutManager" row-count="14" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="20" bottom="20" right="20"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="960" height="540"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="5b2b2">
+            <constraints>
+              <grid row="3" column="1" row-span="3" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalScrollBarPolicy value="30"/>
+              <verticalScrollBarPolicy value="20"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a7e70" class="javax.swing.JTextArea" binding="generatedArrayText">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <editable value="false"/>
+                  <inheritsPopupMenu value="true"/>
+                  <lineWrap value="true"/>
+                  <margin top="10" left="10" bottom="10" right="10"/>
+                  <maximumSize width="-1" height="-1"/>
+                  <minimumSize width="-1" height="-1"/>
+                  <text value=""/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="d99f1" class="javax.swing.JButton" binding="bubbleSortButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <borderPainted value="true"/>
+              <hideActionText value="true"/>
+              <horizontalTextPosition value="0"/>
+              <text value="BUBBLE SORT"/>
+            </properties>
+          </component>
+          <component id="5c85" class="javax.swing.JButton" binding="mergeSortButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="MERGE SORT"/>
+            </properties>
+          </component>
+          <component id="9915a" class="javax.swing.JButton" binding="binarySortAscendingButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="BINARY SORT (Ascending)"/>
+            </properties>
+          </component>
+          <component id="cb139" class="javax.swing.JLabel" binding="generatedArrayTitleText">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <foreground color="-16776961"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="GENERATED (UNSORTED) ARRAY"/>
+            </properties>
+          </component>
+          <component id="e3c82" class="javax.swing.JTextField" binding="algorithmUsedText">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14"/>
+              <horizontalAlignment value="11"/>
+              <opaque value="false"/>
+              <text value="Algorithm Used:"/>
+            </properties>
+          </component>
+          <component id="972c6" class="javax.swing.JTextField" binding="algorithmUsedNameText">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="true"/>
+            </properties>
+          </component>
+          <component id="4c1e9" class="javax.swing.JTextField" binding="arrayLengthMaxText">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+              <foreground color="-6710887"/>
+              <horizontalAlignment value="0"/>
+              <inheritsPopupMenu value="false"/>
+              <opaque value="false"/>
+              <text value="max of 1000"/>
+            </properties>
+          </component>
+          <component id="a4803" class="javax.swing.JSpinner" binding="arrayLengthInput">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="47314" class="javax.swing.JButton" binding="binarySortDescendingButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="BINARY SORT (Descending)"/>
+            </properties>
+          </component>
+          <component id="6df74" class="javax.swing.JButton" binding="compareAllSortsButton">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="COMPARE ALL ALGORITHMS"/>
+            </properties>
+          </component>
+          <component id="c13b6" class="javax.swing.JButton" binding="randomizeArrayButton">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <autoscrolls value="false"/>
+              <horizontalTextPosition value="0"/>
+              <text value="RE-RANDOMIZE ARRAY"/>
+            </properties>
+          </component>
+          <component id="f2b17" class="javax.swing.JButton" binding="resetTextFieldsButton">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <autoscrolls value="false"/>
+              <horizontalTextPosition value="0"/>
+              <text value="RESET"/>
+            </properties>
+          </component>
+          <component id="396fd" class="javax.swing.JTextField" binding="algorithmSelectionText">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <focusable value="true"/>
+              <font size="14"/>
+              <foreground color="-16776961"/>
+              <horizontalAlignment value="0"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <opaque value="false"/>
+              <text value="Please choose your sorting algorithm"/>
+            </properties>
+          </component>
+          <component id="94c75" class="javax.swing.JButton" binding="quickSortButton">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="QUICK SORT"/>
+            </properties>
+          </component>
+          <component id="b3804" class="javax.swing.JTextField" binding="arrayLengthTextField">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="14"/>
+              <foreground color="-16776961"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="false"/>
+              <requestFocusEnabled value="true"/>
+              <text value="Please enter desired array length"/>
+            </properties>
+          </component>
+          <scrollpane id="6d04d">
+            <constraints>
+              <grid row="7" column="1" row-span="5" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a3ace" class="javax.swing.JTextArea" binding="sortResultText">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <inheritsPopupMenu value="true"/>
+                  <lineWrap value="true"/>
+                  <margin top="10" left="10" bottom="10" right="10"/>
+                  <maximumSize width="-1" height="-1"/>
+                  <minimumSize width="-1" height="-1"/>
+                  <wrapStyleWord value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="57d21" class="javax.swing.JTextField" binding="messageBoxText">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font size="18"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <component id="2b91e" class="javax.swing.JTextField" binding="timeText">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <horizontalAlignment value="0"/>
+              <text value="TIME TAKEN: "/>
+            </properties>
+          </component>
+          <component id="a788d" class="javax.swing.JLabel" binding="sortResultTitleText">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font size="16"/>
+              <foreground color="-16776961"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="SORT RESULTS"/>
+            </properties>
+          </component>
+          <component id="77dea" class="javax.swing.JTextField" binding="spaceFiller">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <opaque value="false"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="9716b" class="javax.swing.JTextField" binding="welcomeMessage">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <font size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="WELCOME TO SORT MANAGER"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
