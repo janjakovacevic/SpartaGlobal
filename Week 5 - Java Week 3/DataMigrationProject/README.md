@@ -1,5 +1,5 @@
 
-<img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/logo.png">
+<img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/logo.png">
 
 # **Employees Data Migraton**
 ![java_badge](https://img.shields.io/badge/-Java-lightgrey?style=for-the-badge&logo=appveyor)
@@ -39,7 +39,7 @@ During the development of this project, multiple ways were found to go about wri
 
 The performance of the combination of the above commands for both threaded and non-threaded versions of this program is displayed in the table below from fastest to the slowest method.
 
-![employees times table](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/employees_times_table.png)
+![employees times table](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/employees_times_table.png)
 
 It has proven that the most efficient way of writing the data to the database involves switching the autoCommit off, batching the added lines and, in doing so, minimising the number of calls made to the database. This speeds up the performance significantly. Adding threading on top of that further cuts down on the time taken to transfer all the data.
 
@@ -49,31 +49,31 @@ It has proven that the most efficient way of writing the data to the database in
 When first run - the program will read the CSV file and write it to the database. It will then display the time it took to complete this operation as well as the 
 `Start Menu` allowing the user to choose their next course of action:
 
-![initial prompt](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/initial%20prompt.png)
+![initial prompt](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/initial%20prompt.png)
 
 In this demo, a CSV file of 65,500 lines (including the header line) is used. The user can check `how many valid entires` have been written to the database before deleting any of them, by choosing option 3:
 
-![count - first time](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/start%20check%20count.png)
+![count - first time](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/start%20check%20count.png)
 
 The user can see that this file had no duplicate or invalid values. In case there were any `duplicate or invalid values`, CSV files would be created and the values 
 would be written to them - they could be checked in the `resources directory`.
 
 User can now choose to `look for an employee` using their employee ID. Here - an employee with the ID of 1998. Upon completion of the operation, the program displays the time (in milliseconds) it took to find the specified employee's details as well the details themselves in order in which they are listed above:
 
-![select - first time](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/select%20an%20employee.png)
+![select - first time](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/select%20an%20employee.png)
 
 Upon completion of an operation, user is yet again prompted with the Start Menu. They can now choose to `delete the employee` with employee ID of 1998. Upon completion of the operation, the program displays the time (in milliseconds) it took to delete the specified employee's details as well the confirmation message: 
 
-![delete](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/delete%20an%20employee.png)
+![delete](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/delete%20an%20employee.png)
 
 User is once again prompted with the Start Menu. They can now `verify` the employee has indeed been removed from the database - in 2 ways. `First` they can check the number of all the employees currently stored in the database and compare it to the number he previously had:
 
-![count - second time](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/check%20count%20after%20deletion.png)
+![count - second time](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/check%20count%20after%20deletion.png)
 
 `Second` way of ensuring the employee has been deleted is by trying to select the same employee once again:
 
-![select - second time](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/try%20selecting%20the%20deleted%20employee.png)
+![select - second time](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/try%20selecting%20the%20deleted%20employee.png)
 
 Now that the user has successfully deleted a user from the database, they can choose to perform more operations or simply `exit the program`. By choosing option 4, the program exits.
 
-![exit](https://github.com/janjakovacevic/SpartaGlobalRepo/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/exit.png)
+![exit](https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/exit.png)
