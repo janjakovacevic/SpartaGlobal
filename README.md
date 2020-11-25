@@ -6,7 +6,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
 - 📅 Start of Training : 21/09/2020  
 - :woman_technologist: Java Developer Trainee Consultant  
 - :mortar_board: Bachelor of Science in Computer Science and Computational Mathematics  
-- 📓 [Training Repository](https://github.com/janjakovacevic/SpartaGlobalRepo)  
+- 📓 [Training Repository](https://github.com/janjakovacevic/SpartaGlobal)  
 - ⚡ Fun Fact : I used to be a professional tennis player :tennis:  
 
 ## Course Overview 
