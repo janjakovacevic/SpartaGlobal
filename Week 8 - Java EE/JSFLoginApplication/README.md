@@ -14,7 +14,7 @@
 ### **Table Of Contents**
   * [**Overview**](#overview)
   * [**Technology**](#technology)
-  * [**Screenshots**](#demo)
+  * [**Screenshots**](#screenshots)
       - [Login Page](#login-page)
       - [Welcome Page](#welcome-page)
       - [Admin Page](#admin-page)
@@ -22,6 +22,7 @@
       - [Registration Page](#registration-page)
       - [Permissions Page](#permissions-page)
       - [Logout](#logout)
+  * [**Future Work**](#future-work)
 
 ## **Overview**
 - Simple login application with a reasonable way of handling invalid logins
@@ -166,3 +167,10 @@ User is asked to select the user they want to change the permission for as well 
 ### Logout
 
 - When the user chooses to logout, the session ends and they are sent back to the login page.
+
+## **Future Work**
+Possible improvments for `JSF Login App 2.0`
+ - Add restrictions of type of input allowed in the registration form
+ - Allow admin to update the user information
+ - Add more search options
+ - Create a more user-friendly front end
