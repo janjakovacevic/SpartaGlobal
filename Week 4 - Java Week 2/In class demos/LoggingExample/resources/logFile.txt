@@ -1,0 +1,6 @@
+[DEBUG] 2020-10-16 19:23:16.643 [main] Starter - This is a debug message
+[INFO ] 2020-10-16 19:23:16.645 [main] Starter - This is an info message
+[WARN ] 2020-10-16 19:23:16.645 [main] Starter - This is a warn message
+[ERROR] 2020-10-16 19:23:16.645 [main] Starter - This is an error message
+[FATAL] 2020-10-16 19:23:16.645 [main] Starter - This is a fatal message
+[ERROR] 2020-10-16 19:23:16.647 [main] Starter - Divided by zero / by zero
