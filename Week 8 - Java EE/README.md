@@ -8,7 +8,7 @@ Hosts all the work done in Week 8 of Java Developer Training.
 - Servlets
 - Jakarta (Java) EE: Enterprise Edition
   - JSP: Java Server Pages
-  - JSF: Java Server Faclets
+  - JSF: Java Server Faces
   - JPA: Java Persistence API
   - CDI: Context/Dependency Injection
   - Beans
