@@ -56,7 +56,7 @@
 - Bootstrap
     - Open-source HTML, CSS, and JavaScript framework used for styling views
 
-## **Demo**
+## **Screenshots**
 
 ### Login Page
 - Upon starting the application, the user will land on the login page were they are then prompted to enter their credentials 
