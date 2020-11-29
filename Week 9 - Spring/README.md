@@ -6,4 +6,5 @@ Hosts all the work done in Week 9 of Java Developer Training.
 
 - Spring
 - Spring Boot
+- Thymeleaf
 - Mini Project - Sakila Database Film Rental Web App
