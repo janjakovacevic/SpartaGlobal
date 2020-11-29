@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+    <div layout:fragment="content">
+
+        <h1 style="text-align: center">BROWSE OUR ACTORS</h1>
+
+        <form class="filter" action="/actors">
+            <table class="filter-table">
+                <tr>
+                    <td class="no-border">
+                        <label>
+                            First Name:
+                            <select name="firstName" class="selection-menu">
+                                <option>ALL ACTORS</option>
+                                <option th:each="actor: ${allActors}" th:text="${actor.firstName}">
+                            </select>
+
+                            Last Name:
+                            <select name="lastName" class="selection-menu">
+                                <option>ALL ACTORS</option>
+                                <option th:each="actor: ${allActors}" th:text="${actor.lastName}">
+                            </select>
+                        </label>
+                    </td>
+                    <td class="no-border">
+                        <input type="submit" value="Search" class="button">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div class="actor-container">
+            <table style="text-align-last: center;">
+                <tr>
+                    <th>Actor ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <tr th:each="actor: ${actors}">
+                    <td><a class="hyperlink-text" th:href="@{actors/details(id=${actor.actorId})}" th:text="${actor.actorId}">Actor</a></td>
+                    <td th:text="${actor.firstName}"></td>
+                    <td th:text="${actor.lastName}"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sparta.engineering72.SimulatorGUI">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="598" height="556"/>
+    </constraints>
+    <properties>
+      <maximumSize width="-1" height="-1"/>
+      <minimumSize width="-1" height="-1"/>
+      <preferredSize width="720" height="540"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="987df" class="javax.swing.JLabel" binding="welcomeLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground color="-16776961"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="WELCOME TO RABBIT SIMULATOR"/>
+        </properties>
+      </component>
+      <component id="c8e82" class="javax.swing.JLabel" binding="rabbitSettingsLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="13"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="RABBITS SETTINGS"/>
+        </properties>
+      </component>
+      <component id="e9eb1" class="javax.swing.JSpinner" binding="rabbitMaturityAgeSpinner">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4a5a4" class="javax.swing.JSpinner" binding="rabbitDeathAgeSpinner">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2e2c5" class="javax.swing.JLabel" binding="foxSettingsLabel" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="Fox Settings"/>
+        </properties>
+      </component>
+      <component id="11e3" class="javax.swing.JSpinner" binding="foxMaturityAgeSpinner">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="11377" class="javax.swing.JSpinner" binding="foxDeathAgeSpinner">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6a63e" class="javax.swing.JLabel" binding="populationReportLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="13"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="POPULATION REPORT"/>
+        </properties>
+      </component>
+      <component id="7cea6" class="javax.swing.JLabel" binding="rabbitsReportLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Rabbits Population Report"/>
+        </properties>
+      </component>
+      <component id="79a27" class="javax.swing.JTextField" binding="totalRabbitsTextField">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="41406" class="javax.swing.JTextField" binding="maleRabbitsTextField">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="7348f" class="javax.swing.JTextField" binding="femaleRabbitsTextField">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="1df9d" class="javax.swing.JLabel" binding="foxesReportLabel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="Foxes Population Report"/>
+        </properties>
+      </component>
+      <component id="69065" class="javax.swing.JLabel" binding="rabbitMaturityAgeLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <labelFor value="e9eb1"/>
+          <text value="Maturity age:"/>
+        </properties>
+      </component>
+      <component id="2a15b" class="javax.swing.JLabel" binding="totalRabbitsLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <labelFor value="79a27"/>
+          <text value="Total:"/>
+        </properties>
+      </component>
+      <component id="9360b" class="javax.swing.JLabel" binding="rabbitDeathAgeLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <labelFor value="4a5a4"/>
+          <text value="Death age:"/>
+        </properties>
+      </component>
+      <component id="aca67" class="javax.swing.JLabel" binding="foxMaturityAgeLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <labelFor value="11e3"/>
+          <text value="Maturity age:"/>
+        </properties>
+      </component>
+      <component id="587be" class="javax.swing.JLabel" binding="foxDeathAgeLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <labelFor value="11377"/>
+          <text value="Death age:"/>
+        </properties>
+      </component>
+      <component id="b4212" class="javax.swing.JLabel" binding="allSettingsLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="15"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="SETTINGS"/>
+        </properties>
+      </component>
+      <component id="9a5a5" class="javax.swing.JLabel" binding="simulationReportLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="15"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="SIMULATION REPORTS"/>
+        </properties>
+      </component>
+      <component id="49e90" class="javax.swing.JLabel" binding="maleRabbitsLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <labelFor value="41406"/>
+          <text value="Male:"/>
+        </properties>
+      </component>
+      <component id="fc9aa" class="javax.swing.JTextField" binding="totalFoxesTextField">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="d0642" class="javax.swing.JTextField" binding="maleFoxesTextField">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="dbde3" class="javax.swing.JLabel" binding="totalFoxesLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <labelFor value="fc9aa"/>
+          <text value="Total:"/>
+        </properties>
+      </component>
+      <component id="9bb82" class="javax.swing.JLabel" binding="maleFoxesLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="d0642"/>
+          <text value="Male:"/>
+        </properties>
+      </component>
+      <component id="85b3b" class="javax.swing.JLabel" binding="timerSettingsLabel" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value="Timer Settings"/>
+        </properties>
+      </component>
+      <component id="e4033" class="javax.swing.JSpinner" binding="yearsSpinner">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3d458" class="javax.swing.JSpinner" binding="monthsSpinner">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ee747" class="javax.swing.JLabel" binding="yearsLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="4"/>
+          <horizontalTextPosition value="4"/>
+          <labelFor value="e4033"/>
+          <text value="Years:"/>
+        </properties>
+      </component>
+      <component id="42147" class="javax.swing.JLabel" binding="monthsLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="3d458"/>
+          <text value="Months:"/>
+        </properties>
+      </component>
+      <component id="a5710" class="javax.swing.JTextField" binding="oldAgeDeathRabbitsTextField">
+        <constraints>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="ce8d3" class="javax.swing.JLabel" binding="oldAgeDeathRabbitsLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="a5710"/>
+          <text value="Rabbits (natural):"/>
+        </properties>
+      </component>
+      <component id="f739d" class="javax.swing.JTextField" binding="preyDeathRabbitsTextField">
+        <constraints>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="4c81b" class="javax.swing.JLabel" binding="femaleRabbitsLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="7348f"/>
+          <text value="Female:"/>
+        </properties>
+      </component>
+      <component id="5a2df" class="javax.swing.JLabel" binding="deathReportLabel">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Death Report"/>
+        </properties>
+      </component>
+      <component id="c4d1d" class="javax.swing.JTextField" binding="femaleFoxesTextField">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="838e6" class="javax.swing.JLabel" binding="femaleFoxesLabel">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="c4d1d"/>
+          <text value="Female:"/>
+        </properties>
+      </component>
+      <component id="b16f2" class="javax.swing.JLabel" binding="preyDeathRabbitsLabel">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rabbits (eaten):"/>
+        </properties>
+      </component>
+      <component id="70d61" class="javax.swing.JTextField" binding="deathFoxesTextField">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="17c94" class="javax.swing.JLabel" binding="deathFoxesLabel">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="70d61"/>
+          <text value="Foxes (natural):"/>
+        </properties>
+      </component>
+      <component id="68e46" class="javax.swing.JLabel" binding="successMessageTextField">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <opaque value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ce9d1" class="javax.swing.JButton" binding="startSimulationButton">
+        <constraints>
+          <grid row="11" column="0" row-span="3" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="START SIMULATION"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

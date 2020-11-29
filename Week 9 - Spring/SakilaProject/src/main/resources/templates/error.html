@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+<!--	<div layout:fragment="navigation">-->
+<!--		<div th:replace="fragments/navigation :: navigation"></div>-->
+<!--	</div>-->
+
+<div layout:fragment="content">
+    <h1 style="text-align: center">You can't do that!</h1>
+    <img alt="Explosion" th:src="@{/images/explosion.jpeg}" style="width: 100%"/>
+    </div>
+</div>
+
+</body>
+</html>

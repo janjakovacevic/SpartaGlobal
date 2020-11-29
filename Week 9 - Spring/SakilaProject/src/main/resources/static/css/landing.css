@@ -1,0 +1,176 @@
+@CHARSET "UTF-8";
+
+.header{
+  background-color: darkred;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+label{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  align-content: end;
+  text-align: left;
+}
+
+.navbar-brand, .nav-item {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  align-content: end;
+  text-align: left;
+}
+
+.button {
+  background-color: darkred;
+  color: white;
+  margin: 8px 0px;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.footer {
+  background-color: darkred;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+cf #img body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.css-slideshow{
+  position: relative;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
+
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+
+.css-slideshow-attr a{
+  color: #666;
+}
+
+.css-slideshow figure{
+  opacity:0;
+}
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+
+
+@keyframes xfade {
+  0% {
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+
+    <h1 style="text-align: center" th:action="${details}" th:text="${details.title}"></h1>
+    <table class="center-block">
+        <tr >
+            <th>Description:</th>
+            <td th:text="${details.description}">Film Info</td>
+        </tr>
+        <tr >
+            <th>Release Year:</th>
+            <td th:text="${details.releaseYear}">Film Info</td>
+        </tr>
+        <tr >
+            <th>Film Length:</th>
+            <td th:text="${details.length} + ' ' + minutes">Film Info</td>
+        </tr>
+        <tr >
+            <th>Film Rating:</th>
+            <td th:text="${details.rating}">Film Info</td>
+        </tr>
+        <tr>
+            <th>Special Features:</th>
+            <td th:text="${details.specialFeatures}">Film Info</td>
+        </tr>
+        <tr >
+            <th>Rental Duration:</th>
+            <td th:text="${details.rentalDuration} + ' ' + days">Film Info</td>
+        </tr>
+        <tr>
+            <th>Rental Cost:</th>
+            <td th:text="${details.rentalRate}">Film Info</td>
+        </tr>
+        <tr>
+            <th>Status:</th>
+            <td th:text="${available} ? 'Available' : 'Not Available'">Film Info</td>
+        </tr>
+    </table>
+
+    <div sec:authorize="isAuthenticated()" class="rentButton">
+        <form th:if="${available == true}" th:action="@{/rent/{id}(id=${details.filmId})}">
+            <input class="button" type="submit" value="Rent Film" />
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

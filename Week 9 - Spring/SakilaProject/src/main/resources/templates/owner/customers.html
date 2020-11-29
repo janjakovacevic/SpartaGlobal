@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="https://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <div align="center">
+        <h1>Customers Overview</h1>
+        <br/><br/>
+
+
+        <form class="filter" action="/owner/customers">
+            <table class="filter-table">
+                <tr>
+                    <td class="no-border">
+                        <label>
+                            First Name:
+                            <select name="firstName" class="selection-menu">
+                                <option>ALL CUSTOMERS</option>
+                                <option th:each="customer: ${allCustomers}" th:text="${customer.firstName}">
+                            </select>
+
+                            Last Name:
+                            <select name="lastName" class="selection-menu">
+                                <option>ALL CUSTOMERS</option>
+                                <option th:each="customer: ${allCustomers}" th:text="${customer.lastName}">
+                            </select>
+                        </label>
+                    </td>
+                    <td class="no-border">
+                        <input type="submit" value="Search" class="button">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>First name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Active</th>
+                    <th>Registration Date</th>
+                    <th>Last Update</th>
+                    <th>History</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr th:each="customer : ${customers}">
+                <td th:text="${customer.customerId}">Customer ID</td>
+                <td th:text="${customer.firstName}">First Name</td>
+                <td th:text="${customer.lastName}">Last Name</td>
+                <td th:text="${customer.email}">Email</td>
+                <td th:text="${customer.active == 1} ? 'Yes' : 'No'">Active</td>
+                <td th:text="${customer.createDate}">Registration Date</td>
+                <td th:text="${customer.lastUpdate}">Last Update</td>
+                <td>
+                    <a th:href="@{'/owner/view/customers/' + ${customer.customerId}}">Details</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

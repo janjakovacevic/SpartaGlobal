@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      layout:decorator="layout/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-sm-8">
+            <h1 th:text="${customer != null} ? ${'Hello, ' + (customer.firstName.concat(' ' + customer.lastName).toUpperCase())} : 'Hello, Customer'">Welcome back, CUSTOMER </h1>
+        </div>
+        <div class="col-sm-4">
+            <form th:action="@{/logout}" method="post">
+                <input class="button" type="submit" value="Sign Out"/>
+            </form>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td  th:text="${customer != null} ? ${customer.firstName} : 'N/A'"></td>
+        </tr>
+        <tr>
+            <th>Last Name:</th>
+            <td th:text="${customer != null} ? ${customer.lastName} : 'N/A'"></td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td th:text="${customer != null} ? ${customer.email} : 'N/A'"></td>
+        </tr>
+        <tr>
+            <th>Registration Date:</th>
+            <td th:text="${customer != null} ? ${customer.createDate} : 'N/A'"></td>
+        </tr>
+    </table>
+
+    <hr>
+    <h1 style="text-align:center;">Rented Films</h1>
+    <hr>
+
+    <form class="form-group" name="orders">
+        <table  style="text-align-last: center;">
+            <tr>
+                <th>Film Title</th>
+                <th>Rental Date</th>
+                <th>Return Date</th>
+            </tr>
+            <tr th:each="order: ${orders}">
+                <td><a class="hyperlink-text" th:href="@{films/details(id=${order.film.filmId})}"  th:text="${order.film.title}">Film</a></td>
+                <td th:text="${order.rental.rentalDate}"></td>
+                <td th:text="${order.rental.returnDate}"></td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>

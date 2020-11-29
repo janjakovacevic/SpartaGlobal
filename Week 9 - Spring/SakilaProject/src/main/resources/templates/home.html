@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  xmlns:th="http://www.thymeleaf.org"
+	  layout:decorator="layout/layout">
+
+<head>
+<title>Layout</title>
+</head>
+
+<body>
+
+<!--	<div layout:fragment="navigation">-->
+<!--		<div th:replace="fragments/navigation :: navigation"></div>-->
+<!--	</div>-->
+
+	<div layout:fragment="content">
+		<div class="jumbotron">
+			<h1 class="display-4" style="text-align: center">Hello, welcome to the Dependables Film Store!</h1>
+			<hr class="my-4">
+
+			<img th:src="@{/images/camera.jpg}" class="img-fluid" alt="Responsive image"/>
+			<div class="lead " data-block-type="2" id="block-yui_3_17_2_1_1546889297962_1611116">
+				<div class="sqs-block-content">
+					<p class="" style="white-space:pre-wrap;"><br><br></p><h3 style="white-space:pre-wrap;">“We don’t make movies to make more money. We make money to make more movies.”</h3>
+					<p class="" style="white-space:pre-wrap;">- Walt Disney</p>
+				</div>
+			</div>
+			<hr class="my-4">
+			<p>We bring all your favourite films in one place. Go look now!</p>
+			<p class="lead">
+				<a class="button" href="/films" role="button">Explore films</a>
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>

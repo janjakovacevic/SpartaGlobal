@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+    <div align="center">
+        <h1>Films Overview</h1>
+        <br/><br/>
+        <table border="1" cellpadding="10">
+            <thead>
+            <tr>
+                <th>Film ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Release Year</th>
+                <th>Rental Duration</th>
+                <th>Price</th>
+                <th>Rating</th>
+                <th>Length</th>
+                <th>Replacement Cost</th>
+                <th>Available</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="film : ${films}">
+                <td th:text="${film.filmId}">Film ID</td>
+                <td><a class="hyperlink-text" th:href="@{/films/details(id=${film.filmId})}"  th:text="${film.title}">Film</a></td>
+                <td th:text="${film.description}">Description</td>
+                <td th:text="${film.releaseYear}">Release Year</td>
+                <td th:text="${film.rentalDuration}">Rental Duration</td>
+                <td th:text="${film.rentalRate}">Price</td>
+                <td th:text="${film.rating}">Rating</td>
+                <td th:text="${film.length}">Length</td>
+                <td th:text="${film.replacementCost}">Replacement Cost</td>
+                <td th:text="${filmCount.get(film.filmId)}">Availability</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

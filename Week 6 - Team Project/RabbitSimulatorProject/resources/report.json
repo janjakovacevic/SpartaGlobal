@@ -1,0 +1,11 @@
+[ {
+  "totalRabbits" : "944",
+  "femaleRabbits" : "428",
+  "femaleFoxes" : "5",
+  "rabbitAgeDeaths" : "0",
+  "foxDeaths" : "0",
+  "totalFoxes" : "6",
+  "maleRabbits" : "1",
+  "maleFoxes" : "1",
+  "rabbitPreyDeaths" : "172"
+} ]

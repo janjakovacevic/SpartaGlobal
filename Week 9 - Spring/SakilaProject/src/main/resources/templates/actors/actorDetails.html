@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+    <div layout:fragment="content">
+
+        <h1 style="text-align: center" th:action="${films}" th:text="${name}"></h1>
+
+        <table style="text-align-last: center;">
+
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+            </tr>
+            <tr th:each="film: ${films}">
+                <td><a class="hyperlink-text" th:href="@{/films/details(id=${film.filmId})}" th:text="${film.title}">Film</a></td>
+                <td th:text="${film.description}" th:action="${film.filmId}">Film Info</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>

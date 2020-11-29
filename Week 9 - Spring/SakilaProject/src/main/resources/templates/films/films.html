@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorator="layout/layout">
+
+<head>
+    <title>Layout</title>
+</head>
+
+<body>
+
+<div layout:fragment="content">
+
+    <h1 style="text-align: center">BROWSE OUR FILMS</h1>
+
+    <form class="filter" action="/films">
+        <table>
+            <tr>
+                <td class="no-border">
+                    <label>
+                        <select name="title" class="selection-menu">
+                            <option>ALL FILMS</option>
+                            <option th:each="film: ${allFilms}" th:text="${film.title}">
+                        </select>
+                    </label>
+                </td>
+                <td class="no-border">
+                    <input type="submit" value="Search" class="button">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <table style="text-align-last: center;">
+        <tr>
+            <th>Availability</th>
+            <th>Film Title</th>
+            <th>Film Description</th>
+        </tr>
+        <tr th:each="film: ${films}">
+            <td  th:text="${availableFilms.contains(film)} ? Available : Rented"></td>
+            <td><a class="hyperlink-text" th:href="@{films/details(id=${film.filmId})}" th:text="${film.title}">Film</a></td>
+            <td th:text="${film.description}" th:action="${film.filmId}">Film Info</td>
+        </tr>
+    </table>
+
+
+</div>
+
+</body>
+</html>
