@@ -1,6 +1,6 @@
 # Sakila Database Film Rental Project
 
-<img align="right" width="250" height="250" src="https://github.com/janjakovacevic/SpartaGlobal/blob/master/Week%205%20-%20Java%20Week%203/DataMigrationProject/program%20screenshots/logo.png">
+<img align="right" width="450" height="450" src="https://github.com/janjakovacevic/TheSakilaProject/blob/master/sakila%20assets/1b27a6cb-a541-4c43-92b2-eeb6ed069969_200x200.png">
 
 ![java_badge](https://img.shields.io/badge/-Java-lightgrey?style=for-the-badge&logo=appveyor)
 ![spring_boot](https://img.shields.io/badge/-Spring%20Boot-green?style=for-the-badge&logo=appveyor)
