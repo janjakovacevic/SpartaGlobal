@@ -19,7 +19,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
  - [x] [Week 3](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%203%20-%20Java%20Week%201) - Java | Java Basics
  - [x] [Week 4](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%204%20-%20Java%20Week%202) - Java | Maven, Design Patterns, SOLID, TDD | [Sort Manager Project](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%204%20-%20Java%20Week%202/SortManagerProject)
  - [x] [Week 5](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%205%20-%20Java%20Week%203) - Java | I/O, Concurrency, DB Connectivity | [Data Migration Project](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%205%20-%20Java%20Week%203/DataMigrationProject)
- - [x] Week 6 - Team Project Week (Rabbit Simulator)
+ - [x] [Week 6](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%206%20-%20Team%20Project/RabbitSimulatorProject) - [Team Project (Rabbit Simulator)](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%206%20-%20Team%20Project/RabbitSimulatorProject)
  - [x] Week 7 - Technical Interview Preparation and Quality Gate
  - [x] [Week 8](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE) - Java EE | JSP, JPA (Hibernate), JSF, CDI (Beans) | [JSF Login App](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE/JSFLoginApplication)
  - [x] [Week 9](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring) - Spring | Spring Boot, Thymeleaf | [Mini Team Project (Sakila Front End)](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring/SakilaProject)
