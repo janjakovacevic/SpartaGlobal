@@ -22,7 +22,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
  - [x] Week 6 - Team Project Week (Rabbit Simulator)
  - [x] Week 7 - Technical Interview Preparation and Quality Gate
  - [x] [Week 8](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE) - Java EE | JSP, JPA (Hibernate), JSF, CDI (Beans) | [JSF Login App](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE/JSFLoginApplication)
- - [x] Week 9 - Spring | Spring Boot, Thymeleaf | Team Project (Sakila Front End)
- - [ ] Week 10 - Panel Interview Preparation and Quality Gate
+ - [x] [Week 9](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring) - Spring | Spring Boot, Thymeleaf | [Mini Team Project (Sakila Front End)](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring/SakilaProject)
+ - [x] Week 10 - Panel Interview Preparation and Quality Gate
  - [ ] Week 11 -
  - [ ] Week 12 -
