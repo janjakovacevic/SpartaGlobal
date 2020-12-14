@@ -4,7 +4,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
 ## Personal Information
 - 📍 London Based  
 - 📅 Start of Training : 21/09/2020  
-- 📅 Start of Training : 11/12/2020  
+- 📅 End of Training : 11/12/2020  
 - :woman_technologist: Java Developer Trainee Consultant  
 - :mortar_board: Bachelor of Science in Computer Science and Computational Mathematics  
 - 📓 [Training Repository](https://github.com/janjakovacevic/SpartaGlobal)  
