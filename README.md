@@ -4,6 +4,7 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
 ## Personal Information
 - 📍 London Based  
 - 📅 Start of Training : 21/09/2020  
+- 📅 Start of Training : 11/12/2020  
 - :woman_technologist: Java Developer Trainee Consultant  
 - :mortar_board: Bachelor of Science in Computer Science and Computational Mathematics  
 - 📓 [Training Repository](https://github.com/janjakovacevic/SpartaGlobal)  
@@ -24,5 +25,5 @@ This is a GitHub Directory to facilitate the material, notes and programming tha
  - [x] [Week 8](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE) - Java EE | JSP, JPA (Hibernate), JSF, CDI (Beans) | [JSF Login App](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%208%20-%20Java%20EE/JSFLoginApplication)
  - [x] [Week 9](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring) - Spring | Spring Boot | Thymeleaf | [Mini Team Project (Sakila Front End)](https://github.com/janjakovacevic/SpartaGlobal/tree/master/Week%209%20-%20Spring/SakilaProject)
  - [x] Week 10 - Panel Interview Preparation and Quality Gate
- - [ ] Week 11 -
- - [ ] Week 12 -
+ - [x] Week 11 - [Final Project](https://github.com/janjakovacevic/Engineering72FinalProject)
+ - [x] Week 12 - [Final Project](https://github.com/janjakovacevic/Engineering72FinalProject)
